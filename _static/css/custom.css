@@ -1,0 +1,77 @@
+/* Centre the logo and keep it a sensible size */
+.mma-logo {
+  display: block;
+  margin: 1.5rem auto 0.5rem auto;
+  max-width: 240px;
+  width: 60%;
+  height: auto;
+}
+
+/* Flowchart responsiveness */
+.mma-flowchart img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.tight-table {
+  font-size: 0.9rem;
+}
+
+.tight-table th,
+.tight-table td {
+  padding: 0.25rem 0.5rem;
+}
+
+
+
+/* Compact institution logo strip */
+.inst-item {
+  padding: 0.25rem 0.5rem;
+}
+
+img.inst-logo {
+  display: block;
+  margin: 0.25rem auto;
+  max-height: 56px;   /* tweak to taste (45–75px) */
+  width: auto;
+  height: auto;
+}
+
+
+img.profile-icon {
+  height: 18px;
+  width: auto;
+  vertical-align: middle;
+  margin: 0 0.15rem;
+}
+
+img.quicklink-icon {
+  display: block;
+  margin: 0.25rem auto 0.75rem auto;
+  max-height: 35px;   /* was 44px */
+  width: auto;
+  height: auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+img.zenodo-badge {
+  height: 18px;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}

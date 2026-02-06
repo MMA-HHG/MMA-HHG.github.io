@@ -1,0 +1,13 @@
+Examples
+========
+
+This page collects practical examples and typical workflows for MMA.
+
+.. rubric:: Full pipeline
+Under construction.
+
+.. rubric:: Adaptation for a tailored application
+Under construction.
+
+.. rubric:: Microscopic study: usage of TDSE solver as Pythonic library
+Under construction.

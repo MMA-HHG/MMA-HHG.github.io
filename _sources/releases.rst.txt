@@ -1,0 +1,21 @@
+Releases
+========
+
+This section lists the releases of the code from `https://github.com/MMA-HHG/MMA <https://github.com/MMA-HHG/MMA>`_.
+
+`Release 1.0 <https://github.com/MMA-HHG/MMA/tree/v1.0.0>`_
+---------------------------------------------------------
+|zenodo_badge|
+
+This is the first public release of the code. It consists of three main modules: *CUPRAD*, *CTDSE*, and *Hankel*. The modules are supplemented by Jupyter tutorials and other processing tools, such as example SLURM/PBS pipelines for running the code on an HPC cluster, and an environment for building a Docker image.
+
+* **CUPRAD** This module computes nonlinear IR laser-pulse propagation. It solves the unidirectional pulse propagation equation for a linearly polarised field in cylindrical geometry.
+* **CTDSE** This module solves the one-dimensional Schrödinger equation to obtain the microscopic response of a single atom. It is compiled into a parallel application (part of the main computational pipeline) and a dynamic library accessible through a Pythonic interface.
+* **Hankel** This module solves a Hankel-like diffraction integral to propagate the XUV field. It is both part of the main computational pipeline and accessible independently as a Pythonic package, adaptable to various inputs.
+
+
+
+.. |zenodo_badge| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.18496339.svg
+   :target: https://doi.org/10.5281/zenodo.18496339
+   :alt: Zenodo DOI badge for MMA Release 1.0
+   :class: zenodo-badge

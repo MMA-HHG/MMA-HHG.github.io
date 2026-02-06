@@ -1,0 +1,176 @@
+:sd_hide_title:
+
+.. image:: /_static/logo.png
+   :alt: MMA logo
+   :align: center
+   :width: 240
+
+MMA
+===
+
+Modular multiscale approach (MMA) is an open-source toolbox for studying high harmonic generation (HHG) in gases. The first release already supports a full-scale simulation spanning from a driving IR-laser pulse entering a gaseous medium, microscopic reponse, up to the generated secondary radiation: harmonic comb resulting into attosecond pulses.
+
+The project is now in its initial phase, please find the code on GitHub and details about the physical model on arXiv.
+
+.. grid:: 1 1 2 2
+   :gutter: 2
+
+   .. grid-item-card::
+      :text-align: center
+      :class-card: quicklink-card
+
+      .. image:: /_static/icons/github_text.png
+         :alt: GitHub
+         :class: quicklink-icon
+
+
+      The repository contains publicly available sources to compile the code as well as more detailed documentation, mutliplatform installation guide using Docker, computattional pipelines, examples of usage and more. 
+
+      .. button-link:: https://github.com/MMA-HHG/MMA
+         :color: secondary
+         :outline:
+         :expand:
+
+         Open repository
+
+   .. grid-item-card::
+      :text-align: center
+      :class-card: quicklink-card
+
+      .. image:: /_static/icons/arxiv.svg
+         :alt: arXiv
+         :class: quicklink-icon
+    
+
+      This paper summarises the main physical assumptions of the model and provides an overview of their numerical implementations.
+
+      .. button-link:: https://arxiv.org/abs/2507.04115
+         :color: secondary
+         :outline:
+         :expand:
+
+         View on arXiv
+
+
+Outline of the operation
+------------------------
+
+The main computational approach decomposes the model into three consecutive steps:
+
+.. figure:: /_static/flowchart.png
+   :alt: MMA workflow flowchart
+   :align: center
+   :width: 95%
+
+Project founders and managers
+------------
+We especially gratefully acknowledge :ref:`our home instititutions <institutions>`.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 16 24 30 20 10
+   :class: tight-table
+
+   * - Name
+     - Affiliation
+     - Contributions
+     - Email
+     - Profiles
+
+   * - Jan Vábek
+     - | `Extreme Light Infrastructure <https://www.eli-laser.eu/>`_
+       | `Czech Technical University in Prague <https://www.cvut.cz/en/>`_
+     - Interfaces between the codes, data handling, computational pipelines, Hankel module, TDSE paralelisation, examples, adaptation of all modules to specific tasks, tutorials,website
+     - | `jan.vabek@eli-beams.eu <mailto:jan.vabek@eli-beams.eu>`_
+       | `jan.vabek@cvut.cz <mailto:jan.vabek@cvut.cz>`_
+     - |jan_github| |jan_scholar| |jan_orcid| |jan_linkedin| 
+   * - Fabrice Catoire
+     - `Centre Lasers Intenses et Applications <https://celia-bordeaux.cnrs.fr/>`_
+     - CTDSE module
+     - `fabrice.catoire@u-bordeaux.fr <mailto:fabrice.catoire@u-bordeaux.fr>`_
+     - |fabrice_orcid|
+   * - Stefan Skupin
+     - `Institut Lumière Matière <https://ilm.univ-lyon1.fr/index.php>`_
+     - CUPRAD module
+     - `stefan.skupin@univ-lyon1.fr <mailto:stefan.skupin@univ-lyon1.fr>`_
+     - |stefan_scholar| |stefan_orcid|
+
+
+Contributors
+------------
+Here is the list of principal contributors to the code. More :doc:`people and organisations <acknowledgements>`.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 16 24 30 20 10
+   :class: tight-table
+
+   * - Name
+     - Affiliation
+     - Contributions
+     - Email
+     - Profiles
+
+   * - Tadeáš Němec
+     -
+     - TDSE-code refactoring, Pythonic interactive TDSE module
+     - 
+     - |tadeas_linkedin|
+
+
+.. _institutions:
+
+Institutions
+------------
+
+.. grid:: 2 2 4 4
+   :gutter: 2
+
+   .. grid-item::
+      :class: inst-item
+      :child-align: center
+
+      .. image:: /_static/institutions/eli.png
+         :alt: The Extreme Light Infrastructure (ELI)
+         :class: inst-logo
+         :target: https://www.eli-laser.eu/
+
+   .. grid-item::
+      :class: inst-item
+      :child-align: center
+
+      .. image:: /_static/institutions/Logo-celia-bleu-sans-slogan-300x184.png
+         :alt: Centre Lasers Intenses et Applications (CELIA)
+         :class: inst-logo
+         :target: https://celia-bordeaux.cnrs.fr/
+
+   .. grid-item::
+      :class: inst-item
+      :child-align: center
+
+      .. image:: /_static/institutions/ilm.jpg
+         :alt: Institut Lumière Matière (iLM)
+         :class: inst-logo
+         :target: https://ilm.univ-lyon1.fr/index.php
+
+   .. grid-item::
+      :class: inst-item
+      :child-align: center
+
+      .. image:: /_static/institutions/CTU_lion-1_tr.png
+         :alt: Czech Technical University in Prague (CTU)
+         :class: inst-logo
+         :target: https://www.cvut.cz/en/
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   Home <self>
+   Releases <releases>
+   Examples <examples>
+   Publications <related_publications>
+   Partners <partners>
+
+   Acknowledgements <acknowledgements>

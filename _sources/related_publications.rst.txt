@@ -1,0 +1,59 @@
+Related publications
+====================
+
+To cite the usage of the code, please cite `the reference paper (arXiv:2507.04115) <https://arxiv.org/abs/2507.04115>`_.
+
+.. rubric:: Publications directly using MMA
+
+.. list-table::
+   :header-rows: 1
+   :widths: 35 20
+
+   * - Title
+     - Journal
+   * - `Phase-matched high-order harmonic generation in pre-ionized noble gases <https://doi.org/10.1038/s41598-022-11313-6>`_
+     - scientific reports
+
+
+.. rubric:: Other related publications
+
+These papers have not directly used the actual release; however, their either have stimulated to the origins of the develepment of the code or use related codes that are scheduled to be available in future releases.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 35 20
+
+   * - Title
+     - Journal
+   * - `Asymmetric polarization gating for spectral tuning and temporal confinement of high-order harmonics <https://doi.org/10.1103/PhysRevA.111.023110>`_
+     - Phys. Rev. A
+   * - `Monochromatic high-order harmonic generation by a Bessel-Gauss beam in periodically modulated media <https://doi.org/10.1103/PhysRevA.109.033517>`_
+     - Phys. Rev. A
+   * - `Spectral filtering of high-order harmonics via optics-free focusing <https://doi.org/10.1364/OE.436086>`_
+     - Phys. Rev. A
+   * - `Optics-less focusing of xuv high-order harmonics  <https://www.science.org/doi/abs/10.1126/sciadv.aau7175>`_
+     - Science Advances
+   * - `Complex structure of spatially resolved high-order-harmonic spectra <https://link.aps.org/doi/10.1103/PhysRevA.94.063401>`_
+     - Phys. Rev. A
+   * - `Ultrashort filaments of light in weakly ionized, optically transparent media <http://doi.org/10.1088/0034-4885/70/10/R03>`_
+     - Rep. Prog. Phys.
+
+
+Other content
+-------------
+
+* `Videotutorials showing basic operation of the code <https://youtube.com/playlist?list=PLhgkvMYpHD8gA1C3FM_GB24HNYNsBGxQe&si=riPihrEJj3BIHjdR>`_ (it contains installation guide for CodeOcean, Docker, basic operations with the code)
+
+.. only:: html
+
+   .. raw:: html
+
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/wogpBJii_1k?list=PLhgkvMYpHD8gA1C3FM_GB24HNYNsBGxQe&index=1"
+          title="Basic tutorials"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
