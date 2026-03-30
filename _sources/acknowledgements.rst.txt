@@ -1,0 +1,35 @@
+Acknowledgements
+================
+
+We gratefully acknowledge the support of our home institutes, the contributions of individuals to
+the development of MMA, and the funding and computational resources that supported this work.
+
+Home institutes
+---------------
+
+We are grateful to our home institutes:
+
+* `The Extreme Light Infrastructure <https://www.eli-laser.eu/>`_
+* `Centre de lasers intenses et applications <https://celia-bordeaux.cnrs.fr/>`_
+* `Institut Lumière Matière <https://ilm.univ-lyon1.fr/index.php>`_
+* `Czech Technical University in Prague <https://www.cvut.cz/en/>`_
+
+Contributing individuals: code, discussions, HPC-support
+--------------------------------------------------------
+
+We thank colleagues who contributed to specific parts of the development of MMA:
+
+* Rachel Nuter |nuter_orcid| — development of the ionisation module (CUPRAD).
+* Jakub Jelínek |jelinek_linkedin| — implementation of part of the HDF5 routines in Fortran (CUPRAD).
+* Luc Bergé |berge_orcid| — extensive testing, many suggestions for improvements, and valuable discussions on the physical model (CUPRAD).
+* Edwin Chacón-Golcher — support for deployment and optimisation of the whole code on the ELI cluster.
+
+Funding and computational resources
+-----------------------------------
+
+* **Jan Vábek** — support from the project *Advanced Research Using High Intensity Laser Produced Photons and Particles* (CZ.02.1.01/0.0/0.0/16_019/000789) from the European Regional Development Fund (ADONIS), and from GACR Grant No. 25-17853S.
+
+* **Jan Vábek** — computational time provided by the SUNRISE cluster at the ELI Beamlines facility, and support through e-INFRA CZ (ID:90254) from the Ministry of Education, Youth and Sports of the Czech Republic.
+
+* **Stefan Skupin** — computational time provided by MCIA (Mésocentre de Calcul Intensif
+  Aquitain) and by the Grand Équipement National de Calcul Intensif (GENCI project A0XX0507594).
