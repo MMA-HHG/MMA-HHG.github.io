@@ -1,0 +1,98 @@
+Examples
+========
+
+This page collects practical examples and typical workflows for MMA. The examples below are based on
+the tutorials published in `jupyter_examples <https://github.com/MMA-HHG/MMA/tree/main/jupyter_examples>`_.
+
+Currently included examples:
+
+* :ref:`Full pipeline <full-pipeline>` — based on *User-specified density profile*
+* :ref:`Adaptation for a tailored application <tailored-application>` — based on
+  *Simplified HHG modeling by masking the laser profiles*
+* :ref:`Microscopic study: usage of TDSE solver as Pythonic library <tdse-python-library>` —
+  based on *Interactive TDSE*
+
+.. _full-pipeline:
+
+.. rubric:: Full pipeline
+
+This example is based on the tutorial *User-specified density profile*. It demonstrates the three
+main steps of the computational pipeline: first the laser-pulse propagation, then the calculation of
+the TDSE at all points of the macroscopic medium, and finally the build-up of the XUV radiation
+across the whole medium.
+
+.. grid:: 1 1 1 1
+   :gutter: 2
+
+   .. grid-item-card:: Pulse propagation
+      :text-align: center
+      :class-card: media-card-single
+
+      .. raw:: html
+
+         <video class="example-video" controls preload="metadata" playsinline>
+           <source src="_static/media/pulse.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+         </video>
+
+      Pulse propagation in Argon at peak pressure 50 mbar, entrance intensity
+      :math:`3.6 \times 10^{14}\,\mathrm{W/cm^2}`, and :math:`\lambda = 800\,\mathrm{nm}`.
+      The intensity in the figure is expressed in terms of the harmonic cut-off energy,
+      using :math:`E = I_p + 3.17\,U_p`.
+
+   .. grid-item-card:: Microscopic spectra
+      :text-align: center
+      :class-card: media-card-single
+
+      .. raw:: html
+
+         <video class="example-video" controls preload="metadata" playsinline>
+           <source src="_static/media/spectra.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+         </video>
+
+      Microscopic harmonic spectra at selected macroscopic points.
+
+   .. grid-item-card:: HHG signal build-up
+      :text-align: center
+      :class-card: media-card-single
+
+      .. raw:: html
+
+         <video class="example-video" controls preload="metadata" playsinline>
+           <source src="_static/media/HHG_signal.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+         </video>
+
+      Build-up of the HHG signal across the whole medium.
+
+.. _tailored-application:
+
+.. rubric:: Adaptation for a tailored application
+
+This example is based on the tutorial *Simplified HHG modeling by masking the laser profiles* and is
+connected to `this paper <https://doi.org/10.1038/s41598-022-11313-6>`_ and its supplementary
+material. In addition to the standard workflow, it introduces a simplified procedure to retrieve
+coherence lengths, i.e. the size of the domain of constructive interference for a given harmonic
+order, in order to optimise HHG in pre-ionised media.
+
+The procedure is based on the strong-field approximation and provides phase diagnostics of the
+generated harmonic field directly from the laser-intensity and plasma profiles, without the need to
+compute the TDSE throughout the medium. This substantially reduces the computational cost while
+retaining the key information needed for optimisation studies.
+
+.. _tdse-python-library:
+
+.. rubric:: Microscopic study: usage of TDSE solver as Pythonic library
+
+This example refers to the tutorial *Interactive TDSE*. It is computed using the Python interface and
+a customised driving field shown in the first panel. The figure then presents diagnostics directly
+available in the library: the harmonic spectrum, the Gabor transform, the wavefunction, the
+time-resolved energetic distribution of the photoelectron, and finally the probability of ionisation.
+
+.. figure:: /_static/media/micro_TDSE.png
+   :alt: Interactive TDSE example and diagnostics
+   :align: center
+   :width: 100%
+
+   Diagnostics from the Python TDSE interface for a customised driving field.
